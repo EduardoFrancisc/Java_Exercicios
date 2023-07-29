@@ -8,9 +8,9 @@ public class ImparOuPar {
             int entrada = scanner.nextInt();
 
                 if (entrada % 2 == 0) {
-                    System.out.println("O numero " + entrada + " é par");
+                    System.out.println("O Numero " + entrada + " é par");
                 }else{
-                    System.out.println("O numero " + entrada + " é impar");
+                    System.out.println("O Numero " + entrada + " é impar");
                 }
         }
     }
