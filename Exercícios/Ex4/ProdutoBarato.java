@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class ProdutoBarato {
     public static void main(String[] args){
     /*4 - Faça um programa que pergunte o preço de três produtos e informe qual produto você deve comprar, sabendo que a decisão é sempre o mais barato*/
+    
     Scanner scanner = new Scanner(System.in);
         double produto1, produto2, produto3;
     
