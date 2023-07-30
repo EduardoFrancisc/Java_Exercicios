@@ -2,6 +2,7 @@ package Exercícios.Ex3;
 import java.util.Scanner;
 
 public class Circunferencia {
+    
     //3 - Escreva um programa que receba o raio de uma circunferência e mostre o diâmetro, o comprimento e a área desta.
 
     public static void Calculos( double raio){
