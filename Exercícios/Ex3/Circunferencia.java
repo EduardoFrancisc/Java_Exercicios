@@ -15,7 +15,7 @@ public class Circunferencia {
 
             System.out.println("O Diâmetro da Circunferência é: "+Dia);
             System.out.println("O Comprimento da Circunferência é: "+Com);
-            System.out.println("A Área da Circunferência é: "+Are);
+            System.out.println("A Area da Circunferência é: "+ String.format("%.1f",Are));
     };
 
     public static void main(String[] args){

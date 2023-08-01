@@ -7,14 +7,25 @@ public class ProdutoBarato {
     /*4 - Faça um programa que pergunte o preço de três produtos e informe qual produto você deve comprar, sabendo que a decisão é sempre o mais barato*/
     
     Scanner scanner = new Scanner(System.in);
-        double produto1, produto2, produto3;
+        double produto1, produto2, produto3, menorPreco = 0.0;
     
-        System.out.println("Quais os Precos dos Produtos?");
-        produto1 = scanner.nextFloat();
-        produto2 = scanner.nextFloat();
-        produto3 = scanner.nextFloat();
+        System.out.println("Qual o preço do produto1:");
+        System.out.println("Qual o preço do produto2:");
+        
+        produto1 = scanner.nextDouble();
+        produto2 = scanner.nextDouble();
+        
+        menorPreco = produto1;
 
-        System.out.println("Preço do Produto1: "+produto1 + " Preço do Produto2: "+produto2 + " Preço do Produto3: "+produto3);
+        if(produto2 < menorPreco){
+            menorPreco = produto2;
+        }
+        System.out.println("Qual o preço do produto3:");
+        produto3 = scanner.nextDouble();
+        if(produto3<menorPreco){
+            menorPreco = produto3;
+            System.out.println("O menor preço é:" + menorPreco);
+        }
 
     scanner.close();
     }
