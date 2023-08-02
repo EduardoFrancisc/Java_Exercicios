@@ -1,7 +1,7 @@
 package Exercícios.Ex10;
 import java.util.Scanner;
 
-public class ex10 {
+public class Gasolina {
     public static void main(String[] args){
 
         /*10- Um posto está vendendo combustíveis com a seguinte tabela de descontos:

@@ -1,7 +1,7 @@
 package Exercícios.Ex11;
 import java.util.Scanner;
 
-public class ex11 {
+public class Bhaskara {
     public static void main(String[] args){
         /*11 - Escreva um programa que pede os coeficientes de uma equação do segundo grau e exibe
 as raízes, utilizando a fórmula de Bhaskara */
@@ -31,15 +31,7 @@ as raízes, utilizando a fórmula de Bhaskara */
             System.out.println("X1: "+x1);
             System.out.println("X2: "+x2);
         }
-
-
-
-
-
-
-
-
-
+        
         scanner.close();
     }
     

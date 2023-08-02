@@ -1,7 +1,7 @@
 package Exercícios.Ex9;
 import java.util.Scanner;
 
-public class ex9 {
+public class Assassinato {
     
     public static void main(String[] args){
 
@@ -29,6 +29,15 @@ public class ex9 {
             if( resposta4 =='S') respostasSim++;
 
             /*. Se a pessoa responder positivamente a 2 questões ela deve ser classificada como “Suspeita”, entre 3 e 4 como “Cúmplice” e 5 como “Assassino“. Caso contrário, le será classificado como “Inocente“.*/
+                if(respostasSim == 5){
+                    System.out.println("sujeito é o assassino");
+                }else if(respostasSim == 4 || respostasSim == 3){
+                    System.out.println("sujeito é o cumplsice");
+                }else if(respostasSim == 2){
+                    System.out.println("sujeito é o suspeito");
+                }else{
+                    System.out.println("sujeito é o inocente");
+                }
 
         scanner.close();
 
